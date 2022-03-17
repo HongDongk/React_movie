@@ -24,6 +24,7 @@ function Home() {
               <span>Loading...</span>
             </div>
           ) : (
+              
             <div className={styles.movies}>
               {movies.map((movie) => (
                 <Movie
